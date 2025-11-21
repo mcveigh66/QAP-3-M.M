@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.mainbox {
+  width: 1000px;
+  height: 600px; /*will be removed later */
+  background-color: white;
+  border: 3px solid gray;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/*  General classes for the page */
+.boldtext {
+  font-weight: 700;
+}
+
+.centertext {
+  text-align: center;
+}
+
+
+
+
+/* Styles for the header section */
+
+/* Styles for the main / sections section */
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 2px;
+}
+
+
+/* The Table to display the gym results */ 
+
+.lawntable {
+  width: 300px;
+  margin: 0 auto; 
+  border-collapse: collapse; 
+}
+
+.lawntable .lefttext {
+  text-align: left;
+}
+
+.lawntable .righttext {
+  text-align: right;
+}
+
+.lawntable .centertext {
+  text-align: center;
+}
+
+.lawntable .paddingadded {
+  padding: 50px;
+}
+
+.lawntable .orangeback {
+  background-color: orange;
+  font-weight: 700;
+  padding: 20px; 
+  font-size: .85em;
+  font-family: 'Times New Roman', Times, serif
+}
+
+.lawntable .orangebacktwo {
+  background-color: orange;
+  font-weight: 700;
+  padding: 20px; 
+  font-size: .85em;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+
+/* Styles for the footer section */
+
